@@ -1,1 +1,15 @@
-/*  your css code here. If applicable */
+body{
+	background-color:black;
+}
+.box{
+	width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin: 1px;
+    background-color: grey;
+    transition: background-color 0.1s ease-in-out;
+}
+.box:hover{
+	background-color: red;
+	cursor:pointer;
+}

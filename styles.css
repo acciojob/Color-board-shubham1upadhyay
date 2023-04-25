@@ -1,15 +1,14 @@
 body{
 	background-color:black;
 }
-.box{
+.square{
 	width: 20px;
     height: 20px;
     display: inline-block;
-    margin: 1px;
     background-color: grey;
-    transition: background-color 0.1s ease-in-out;
+	margin:2px;
 }
-.box:hover{
+.square:hover{
 	background-color: red;
 	cursor:pointer;
 }
